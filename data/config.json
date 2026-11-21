@@ -1,0 +1,28 @@
+{
+  "generator_version": "process_v3",
+  "power": 9,
+  "time_max_s": 120000.0,
+  "rate_max_C_s": 400.0,
+  "seed": 0,
+  "final_seeds": [
+    0,
+    1,
+    2
+  ],
+  "time_bins": 4,
+  "integration_step_s": 0.01,
+  "max_steps": 100000000,
+  "timeout_s": 300,
+  "sum_tolerance": 0.002,
+  "reporting_quantum": 0.001,
+  "checkpoint_every": 20,
+  "rf_trees": 400,
+  "search_trials": 12,
+  "mlp_max_epochs": 500,
+  "patience": 30,
+  "min_improvement_pp": 0.005,
+  "control_k": 32,
+  "bootstrap_replicates": 2000,
+  "plateau_epsilon_pp": 0.2,
+  "technical": false
+}
